@@ -11,5 +11,10 @@ DCSnoop - Snoop on that DNS cache!
 
 
 ## Installation
-
+```
+git clone https://github.com/benjibrown/DCSnoop
+cd DCSnoop
+pip3 install -r requirements.txt
+python3 main.py
+```
 ## Contributing
