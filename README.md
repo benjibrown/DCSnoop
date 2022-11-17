@@ -22,7 +22,7 @@ Live mode, constantly checks a specific domain and will only end when it is foun
 > Usage
 ```
 python3 -l -d [domain] start
-
+```
 ## Installation
 ```
 git clone https://github.com/benjibrown/DCSnoop
