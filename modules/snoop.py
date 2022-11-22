@@ -24,7 +24,7 @@ class Cache():
                             stderr=subprocess.STDOUT)
                     stdout,stderr = out.communicate()
                     url = line.strip("\n")
-                    if "Non-".encode("utf-8") in stdout:
+                    if "Non-".encode("utf-8") in stdout and "Can't".encode("utf-8") not in stdout:
                         print("---------------------------------------------------------------------------------------------")
                         print(f"[green]{stdout}[/green]")
                         print(f"\n[{timestamp}] [green]{url} found in network DNS Cache! | {count} tests completed! [/green]")
