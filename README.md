@@ -1,8 +1,11 @@
-# PROJECT NOT COMPLETE 
+# PROJECT MAY NOT WORK AS INTENDED, PLEASE REPORT ANY ISSUES
 
 
 # DCSnoop
 DCSnoop - Snoop on that DNS cache!
+
+## Disclaimer
+I and any contributor cannot be held responsible for any damages caused by this script. This tool has been created for educational purposes only.
 
 ## What is DNS Cache?
 DNS cache refers to the temporary storage of information about previous DNS lookups on a machine's OS or web browser. Keeping a local copy of a DNS lookup allows your OS or browser to quickly retrieve it and thus a website's URL can be resolved to its corresponding IP much more efficiently.
